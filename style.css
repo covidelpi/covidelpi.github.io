@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
