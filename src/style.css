@@ -1,14 +1,25 @@
-html, body {
-    height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+img {
+    width: 100%;
+    height: auto;
+  }
+
+html {
+    background-image: url(./resources/back.jpg);
+    background-size: cover;
 }
 
 html {
-    display: table;
-    margin: auto;
+    align-items: center;
+
 }
 
-body {
-    display: table-cell;
-    vertical-align: middle;
+p {
+    font-weight: bold;
+}
+#container {
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
